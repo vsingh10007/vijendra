@@ -1,0 +1,16 @@
+#search{
+    background-color: #3b4555;
+    outline: none;
+    border: none;
+    color: #525c65;
+    font-size: 1.3rem;
+    border-radius: 6px;
+}
+
+#search::after{
+    background-color: #1E293B;
+}
+
+li button{
+    background-color: #fcfcfc;
+}

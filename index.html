@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Doe - Software Developer</title>
+  <meta name="description" content="Full-stack developer specializing in building exceptional digital experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Soft<span id="n">Dev</span></a>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><input type="search" name="" id="search" placeholder="search" style="color: white;"></li>
+        <li > <i class="fa fa-search"></i></li>
+        <!-- #1E293B -->
+      </ul>
+      
+      
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+        
+        <button class="mobile-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container" style="display: flex;">
+      <div class="hero-content" >
+        <span class="hero-label"></span>
+        <h1 class="hero-title">Vijendra pal <span style="color: #38BDF8;">Singh</span> Chouhan</h1>
+        <p class="hero-subtitle">Full Stack Developer</p>
+        <p class="hero-description">
+          I build accessible, pixel-perfect digital experiences for the web. Passionate about crafting elegant solutions that blend thoughtful design with robust engineering.
+        </p>
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn btn-primary">
+            <i class="fas fa-folder-open"></i>
+            View Projects
+          </a>
+          <a href="public/PFD.pdf" class="btn btn-secondary" id="downloadCV" download = "CV">
+            <i class="fas fa-download"></i>
+            Download CV
+          </a>
+        </div>
+      </div>
+      <!-- <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face" alt="John Doe - Software Developer">
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="section-header fade-in">
+      <span class="section-label">Expertise</span>
+      <h2 class="section-title">Skills & Technologies</h2>
+      <p class="section-description">Technologies I work with to bring ideas to life</p>
+    </div>
+    
+    <div class="skills-grid">
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-js"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>ES6+, TypeScript</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-c"></i>
+        </div>
+        <h3>C Programing</h3>
+        <p>Next.js, Redux</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-node-js"></i>
+        </div>
+        <h3>Node.js</h3>
+        <p>Express, NestJS</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-python"></i>
+        </div>
+        <h3>Python</h3>
+        <p>Django, FastAPI</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fas fa-database"></i>
+        </div>
+        <h3>Databases</h3>
+        <p>PostgreSQL, MongoDB</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-java"></i>
+        </div>
+        <h3>JAVA</h3>
+        <p>Swing, AWS</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-android"></i>
+        </div>
+        <h3>Android Proframing</h3>
+        <p>Xml, Java</p>
+      </div>
+      
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <i class="fab fa-figma"></i>
+        </div>
+        <h3>Design</h3>
+        <p>Figma, UI/UX</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="projects" id="featured-projects">
+    <div class="section-header fade-in">
+      <span class="section-label">Portfolio</span>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-description">A selection of my recent work</p>
+    </div>
+    
+    <div class="projects-grid">
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="/Images/DSA.png" alt="E-Commerce Platform">
+          <div class="project-overlay">
+            <a href="#" class="project-link" aria-label="Live demo">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+            <a href="#" class="project-link" aria-label="View code">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>DSA Project</h3>
+          <p>A full-featured online store with cart, checkout, and payment integration.</p>
+          <div class="project-tags">
+            <span class="tag">C++</span>
+            <span class="tag">C</span>
+            <span class="tag">Java</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="/Images/pattern.png" alt="Analytics Dashboard">
+          <div class="project-overlay">
+            <a href="#" class="project-link" aria-label="Live demo">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+            <a href="#" class="project-link" aria-label="View code">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>JAVA Pattern Project</h3>
+          <p>Real-time data visualization dashboard with interactive charts and reports.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Swing</span>
+            <span class="tag">AWM</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="/Images/water.png" alt="Social Media App">
+          <div class="project-overlay">
+            <a href="#" class="project-link" aria-label="Live demo">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+            <a href="#" class="project-link" aria-label="View code">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Web site Project</h3>
+          <p>A social platform with real-time messaging, posts, and user interactions.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Java Script</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 3rem;">
+      <a href="projects.html" class="btn btn-secondary">
+        View All Projects
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats" id="stats">
+    <div class="section-header fade-in">
+      <span class="section-label">Numbers</span>
+      <h2 class="section-title">Coding Statistics</h2>
+    </div>
+    
+    <div class="stats-grid">
+      <div class="stat-card fade-in">
+        <div class="stat-icon">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="stat-number" data-target="10" data-suffix="+">0</div>
+        <div class="stat-label">GitHub Repositories</div>
+      </div>
+      
+      <div class="stat-card fade-in">
+        <div class="stat-icon">
+          <i class="fas fa-code-commit"></i>
+        </div>
+        <div class="stat-number" data-target="5" data-suffix="+">0</div>
+        <div class="stat-label">Contributions</div>
+      </div>
+      
+      <div class="stat-card fade-in">
+        <div class="stat-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="stat-number" data-target="350" data-suffix="">0</div>
+        <div class="stat-label">GitHub Stars</div>
+      </div>
+      
+      <div class="stat-card fade-in">
+        <div class="stat-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="stat-number" data-target="50" data-suffix="+">0</div>
+        <div class="stat-label">Problems Solved</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="round">
+    <div class="footer-container">
+      <p class="footer-text"><i class="fa fa-copyright"></i>2026 Vijendra pal. All rights reserved.</p>
+      
+      <div class="social-links">
+        <a href="https://github.com/vsingh10007" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com" class="social-link" aria-label="Twitter" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="vishalsinghhp35@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
